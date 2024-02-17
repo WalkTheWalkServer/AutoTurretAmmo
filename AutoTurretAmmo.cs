@@ -59,8 +59,6 @@ namespace Oxide.Plugins
 
         object OnTurretToggle(AutoTurret turret)
         {
-            Puts("Turret toggled");
-
             if (!turret.IsOnline())
             {
                 if (permission.UserHasPermission(turret.OwnerID.ToString(), "autoturretammo.use"))
