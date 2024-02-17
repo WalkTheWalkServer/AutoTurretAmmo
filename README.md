@@ -1,4 +1,4 @@
-# AutoTurretAmmo
+# AutoTurret Ammo
 ## Overview
 This Rust plugin enhances the functionality of autoturrets in the game by providing them with infinite ammo. Turrets will automatically reload to full ammo when toggled on and when targeting a player. To ensure controlled usage, players must have the necessary permissions to enable this plugin for their turrets.
 
